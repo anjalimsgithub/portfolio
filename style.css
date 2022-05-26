@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    margin: 0px;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.links:hover {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#welcome {
+    background: linear-gradient(aqua, aquamarine);
+    color: darkblue;
+}
+
+.profile {
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#name {
+    font-size: 60px;
+    line-height: 1.2;
+    font-family: 'Smooch', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Macondo', cursive;
+}
+
+#bio {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+}
+
+.line {
+    height: 6px;
+    background-color: darkblue;
+    width: 70px;
+    margin: auto;
+}
+
+p {
+    font-size: 25px;
+}
+
+#writings a {
+    text-shadow: none;
+    text-decoration: underline;
+}
+
+#writings a:hover {
+    color: darkblue;
+}
+
+#contact {
+    background-color: rgb(239, 71, 71);
+}
+
+#contact iframe {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    text-shadow: none;
+    color: white;
+}
